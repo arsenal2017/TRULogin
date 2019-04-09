@@ -7,6 +7,7 @@
 //
 
 #import "LZViewController.h"
+#import <TRUNetworking/LZNetworking.h>
 
 @interface LZViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    LZNetworking * lz = [[LZNetworking alloc]init];
+    [lz test];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -1,0 +1,6 @@
+framework module TRULogin {
+  umbrella header "TRULogin-umbrella.h"
+
+  export *
+  module * { export * }
+}

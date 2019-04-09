@@ -58,15 +58,15 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		796025799E04D640173FA16E /* Pods-TRULogin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRULogin_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRULogin_Example/Pods-TRULogin_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7F09ED64EB54144D3ECEB624 /* TRULogin.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TRULogin.podspec; path = ../TRULogin.podspec; sourceTree = "<group>"; };
+		7F09ED64EB54144D3ECEB624 /* TRULogin.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TRULogin.podspec; path = ../TRULogin.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92946DB882D2BA0AA85BCFE6 /* Pods-TRULogin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRULogin_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRULogin_Tests/Pods-TRULogin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		93993D9E791B6DEE7E12A970 /* Pods_TRULogin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRULogin_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D677225843EF4626FE32C0C /* Pods_TRULogin_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRULogin_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D162AF597D7343784A5D55 /* Pods-TRULogin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRULogin_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRULogin_Example/Pods-TRULogin_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C3B92CE63779E7F97CE78708 /* Pods-TRULogin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRULogin_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRULogin_Tests/Pods-TRULogin_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CFB6D38DA507A722A0CDD009 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F56C4A11FA9777CFA9491E8F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CFB6D38DA507A722A0CDD009 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F56C4A11FA9777CFA9491E8F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -305,12 +305,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TRULogin_Example/Pods-TRULogin_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/TRULogin/TRULogin.framework",
+				"${BUILT_PRODUCTS_DIR}/TRUNetworking/TRUNetworking.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TRULogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TRUNetworking.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

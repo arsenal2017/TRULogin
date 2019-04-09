@@ -1,0 +1,27 @@
+{
+  "name": "TRULogin",
+  "version": "0.1.0",
+  "summary": "A short description of TRULogin.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/arsenal2017/TRULogin",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "arsenal2017": "1274163421@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/arsenal2017/TRULogin.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TRULogin/Classes/**/*",
+  "dependencies": {
+    "TRUNetworking": [
+
+    ]
+  }
+}
